@@ -1,0 +1,16 @@
+#analysis of cars data set in R
+#analised by Awrng Salihee
+
+**part2**
+```{r}
+data(cars)
+str(cars)
+plot(cars)
+```
+**part2**
+```{r}
+hist(cars$speed)
+boxplot(cars$dist)
+```
+the mean speed of cars `r mean(cars$speed)`
+#the end 
